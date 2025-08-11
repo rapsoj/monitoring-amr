@@ -1,0 +1,23 @@
+[project]
+name = "leximine"
+version = "0.1.0"
+description = "Application to scrape the internet for Anti Microbial Resistance related stories around from regions of interest then apply public large language models to extract relevant information from the articles"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["core"]
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[tool.uv.sources]
+core = { workspace = true }
+
+[project.scripts]
+app = "app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

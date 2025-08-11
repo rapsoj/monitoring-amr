@@ -1,0 +1,18 @@
+[ScraperDelay]
+small = 5
+large = 10
+
+[BrowserSources]
+English = "https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en"
+Hindi = "https://news.google.com/home?hl=hi&gl=IN&ceid=IN:hi"
+Malayalam = "https://news.google.com/home?hl=ml&gl=IN&ceid=IN:ml"
+Marathi = "https://news.google.com/home?hl=mr&gl=IN&ceid=IN:mr"
+Bengali = "https://news.google.com/home?hl=bn&gl=IN&ceid=IN:bn"
+Punjabi = "https://news.google.com/home?hl=pa-IN&gl=IN&ceid=IN:pa"
+Gujarati = "https://news.google.com/home?hl=gu-IN&gl=IN&ceid=IN:gu"
+Tamil = "https://news.google.com/home?hl=ta&gl=IN&ceid=IN:ta"
+Telugu = "https://news.google.com/home?hl=te&gl=IN&ceid=IN:te"
+
+BrowserLang = "English"
+CheckSynposisBeforeParsingAll = false
+OneshotLearningExampleRequest = false
